@@ -12,11 +12,8 @@ const App = () => {
 
   return (
       <div className={classes['main-wrapper']}>
-        <header className={classes['main-header']}>
           <h1>Search for the book</h1>
-        </header>
       <div className={classes['main-results']}>
-
       <div>
           <SearchBar onSearch={handleSearch} />
           <BookList books={searchResults} />
